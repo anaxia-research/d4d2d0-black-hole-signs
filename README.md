@@ -51,8 +51,8 @@ flowchart TD
 
 ## Part II: two units of D4-brane charge (`part2/`)
 
-Models: X10 and X8. Rank-two series from Alexandrov-Feyzbakhsh-Klemm-Pioline, *Mock modular
-Donaldson-Thomas invariants and the threefold X10, X8*, Commun. Number Theory Phys. 20 (2026) 97-148.
+Models: X10 and X8. Rank-two series from Alexandrov-Feyzbakhsh-Klemm-Pioline, *Quantum geometry and
+mock modularity*, Commun. Number Theory Phys. 20 (2026) 97-148.
 The series is `h2 = h2^(0) + h2^(an)`: a weakly holomorphic form of weight -3/2 plus Hurwitz class number
 series multiplied by the square of the rank-one series.
 
