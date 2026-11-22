@@ -1,0 +1,17 @@
+X10: a=4pi sqrt(D0)=[22.3620 +/- 2.04e-5]
+   mu=0 rational: growth analytic from n=79 (E=479/6), exact failures of c(n+1)>c(n): none; log-concavity analytic from n=220 (E=1325/6), exact failures: none
+   mu=0 integer : growth analytic from n=79 (E=479/6), exact failures of c(n+1)>c(n): none; log-concavity analytic from n=220 (E=1325/6), exact failures: none
+   mu=0 integer invariants integral for n <= 415: True
+   mu=1 rational: growth analytic from n=79 (E=949/12), exact failures of c(n+1)>c(n): [0]; log-concavity analytic from n=221 (E=2653/12), exact failures: [1]
+   mu=1 integer : growth analytic from n=79 (E=949/12), exact failures of c(n+1)>c(n): [0]; log-concavity analytic from n=221 (E=2653/12), exact failures: [1]
+   mu=1 integer invariants integral for n <= 416: True
+X8: a=4pi sqrt(D0)=[26.1590 +/- 1.36e-5]
+   mu=0 rational: growth analytic from n=26 (E=80/3), exact failures of c(n+1)>c(n): [0]; log-concavity analytic from n=47 (E=143/3), exact failures: none
+   mu=0 integer : growth analytic from n=26 (E=80/3), exact failures of c(n+1)>c(n): [0]; log-concavity analytic from n=47 (E=143/3), exact failures: none
+   mu=0 integer invariants integral for n <= 415: True
+   mu=1 rational: growth analytic from n=26 (E=643/24), exact failures of c(n+1)>c(n): [0]; log-concavity analytic from n=47 (E=1147/24), exact failures: [1]
+   mu=1 integer : growth analytic from n=26 (E=643/24), exact failures of c(n+1)>c(n): [0]; log-concavity analytic from n=47 (E=1147/24), exact failures: [1]
+   mu=1 integer invariants integral for n <= 415: True
+   mu=2 rational: growth analytic from n=27 (E=163/6), exact failures of c(n+1)>c(n): none; log-concavity analytic from n=47 (E=283/6), exact failures: [2]
+   mu=2 integer : growth analytic from n=27 (E=163/6), exact failures of c(n+1)>c(n): none; log-concavity analytic from n=47 (E=283/6), exact failures: [2]
+   mu=2 integer invariants integral for n <= 416: True

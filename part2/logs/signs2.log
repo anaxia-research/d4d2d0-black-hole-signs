@@ -1,0 +1,22 @@
+X10: L=2kappa=2 D0=chi(2D)/24=19/6 chi_2D=7 D1=35/24 delta=[0.900857 +/- 9.98e-8] b=[0.959715 +/- 1.31e-7] K_G=[0.426118 +/- 6.80e-8] K=['[3.00216 +/- 5.52e-7]'] sign threshold E>=[44.360 +/- 6.70e-5]
+   mu=0: Delta=25/6 first non-polar E=5/6; Rhat+(M+I)/Lhat < 1 certified at E=269/6 (n=44, value 6.64e-02)
+      rational invariants, non-positive non-polar: [(0, '5/6', '-23922034036')]
+      integer invariants,  non-positive non-polar: [(0, '5/6', '-23922034036')]; integral up to n=160: True
+      sanity (max over 3<=E<=~160): |hatc/Lhat-1|/Rhat <= 1.000, |m|/Mstar <= 3.062e-03, |int corr|/Istar <= 0.000e+00
+   mu=1: Delta=47/12 first non-polar E=1/12; Rhat+(M+I)/Lhat < 1 certified at E=541/12 (n=45, value 6.57e-02)
+      rational invariants, non-positive non-polar: [(1, '13/12', '-199146131237/4')]
+      integer invariants,  non-positive non-polar: [(1, '13/12', '-49786600798')]; integral up to n=160: True
+      sanity (max over 3<=E<=~160): |hatc/Lhat-1|/Rhat <= 1.000, |m|/Mstar <= 3.992e-03, |int corr|/Istar <= 1.755e-01
+X8: L=2kappa=4 D0=chi(2D)/24=13/3 chi_2D=10 D1=23/12 delta=[1.55541 +/- 4.83e-6] b=[0.940540 +/- 5.69e-8] K_G=[0.943141 +/- 3.48e-7] K=['[2.83065 +/- 3.44e-6]', '[2.83065 +/- 1.12e-6]'] sign threshold E>=[15.333 +/- 3.34e-4]
+   mu=0: Delta=13/3 first non-polar E=2/3; Rhat+(M+I)/Lhat < 1 certified at E=47/3 (n=15, value 6.94e-02)
+      rational invariants, non-positive non-polar: [(1, '5/3', '-3674883925530040')]
+      integer invariants,  non-positive non-polar: [(1, '5/3', '-3674883927683832')]; integral up to n=160: True
+      sanity (max over 3<=E<=~160): |hatc/Lhat-1|/Rhat <= 1.000, |m|/Mstar <= 4.589e-04, |int corr|/Istar <= 1.668e-01
+   mu=1: Delta=101/24 first non-polar E=19/24; Rhat+(M+I)/Lhat < 1 certified at E=379/24 (n=15, value 6.83e-02)
+      rational invariants, non-positive non-polar: [(1, '43/24', '-1398583666309568')]
+      integer invariants,  non-positive non-polar: [(1, '43/24', '-1398583666309568')]; integral up to n=160: True
+      sanity (max over 3<=E<=~160): |hatc/Lhat-1|/Rhat <= 1.000, |m|/Mstar <= 1.180e-03, |int corr|/Istar <= 0.000e+00
+   mu=2: Delta=23/6 first non-polar E=1/6; Rhat+(M+I)/Lhat < 1 certified at E=97/6 (n=16, value 6.48e-02)
+      rational invariants, non-positive non-polar: [(0, '1/6', '-161127538287')]
+      integer invariants,  non-positive non-polar: [(0, '1/6', '-161127516752')]; integral up to n=160: True
+      sanity (max over 3<=E<=~160): |hatc/Lhat-1|/Rhat <= 1.000, |m|/Mstar <= 4.470e-04, |int corr|/Istar <= 1.631e-01

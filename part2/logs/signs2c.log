@@ -1,0 +1,5 @@
+X10 mu=0: R_tot<1 at every n >= n*+4 (E >= 29/6, value 0.669); pointwise to n*+44, monotone beyond
+X10 mu=1: R_tot<1 at every n >= n*+4 (E >= 49/12, value 0.907); pointwise to n*+45, monotone beyond
+X8 mu=0: R_tot<1 at every n >= n*+5 (E >= 17/3, value 0.569); pointwise to n*+15, monotone beyond
+X8 mu=1: R_tot<1 at every n >= n*+5 (E >= 139/24, value 0.533); pointwise to n*+15, monotone beyond
+X8 mu=2: R_tot<1 at every n >= n*+5 (E >= 31/6, value 0.792); pointwise to n*+16, monotone beyond
