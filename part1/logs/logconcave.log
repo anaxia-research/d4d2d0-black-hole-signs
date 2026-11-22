@@ -1,0 +1,42 @@
+X5
+   mu=0: analytic from n=8, exact failures on [4,8]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -1.925e-07
+   mu=1: analytic from n=8, exact failures on [3,8]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -1.377e-07
+   mu=2: analytic from n=8, exact failures on [3,8]: none; |closed/L-1| at n=20 < 1.2e-74; c/L-1 at n=20 = -1.539e-07
+X6
+   mu=0: analytic from n=7, exact failures on [3,7]: none; |closed/L-1| at n=20 < 7.6e-75; c/L-1 at n=20 = -5.808e-09
+   mu=1: analytic from n=6, exact failures on [3,6]: none; |closed/L-1| at n=20 < 9.7e-75; c/L-1 at n=20 = -3.806e-09
+X8
+   mu=0: analytic from n=7, exact failures on [3,7]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -1.283e-08
+   mu=1: analytic from n=6, exact failures on [3,6]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -8.032e-09
+X10
+   mu=0: analytic from n=5, exact failures on [3,5]: none; |closed/L-1| at n=20 < 9.9e-75; c/L-1 at n=20 = -1.970e-11
+X4,3
+   mu=0: analytic from n=8, exact failures on [4,8]: none; |closed/L-1| at n=20 < 7.7e-75; c/L-1 at n=20 = -1.129e-07
+   mu=1: analytic from n=8, exact failures on [3,8]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -8.123e-08
+   mu=2: analytic from n=8, exact failures on [3,8]: none; |closed/L-1| at n=20 < 1.0e-74; c/L-1 at n=20 = -9.348e-08
+   mu=3: analytic from n=8, exact failures on [3,8]: none; |closed/L-1| at n=20 < 7.9e-75; c/L-1 at n=20 = -9.798e-08
+X6,4
+   mu=0: analytic from n=7, exact failures on [3,7]: none; |closed/L-1| at n=20 < 1.0e-74; c/L-1 at n=20 = -3.962e-09
+   mu=1: analytic from n=7, exact failures on [2,7]: none; |closed/L-1| at n=20 < 9.9e-75; c/L-1 at n=20 = 2.640e-09
+X3,3
+   mu=0: analytic from n=9, exact failures on [4,9]: none; |closed/L-1| at n=20 < 7.9e-75; c/L-1 at n=20 = -1.020e-06
+   mu=1: analytic from n=9, exact failures on [4,9]: none; |closed/L-1| at n=20 < 1.0e-74; c/L-1 at n=20 = -7.656e-07
+   mu=2: analytic from n=9, exact failures on [4,9]: none; |closed/L-1| at n=20 < 1.0e-74; c/L-1 at n=20 = -9.089e-07
+   mu=3: analytic from n=9, exact failures on [4,9]: none; |closed/L-1| at n=20 < 7.9e-75; c/L-1 at n=20 = -1.020e-06
+   mu=4: analytic from n=9, exact failures on [3,9]: none; |closed/L-1| at n=20 < 1.0e-74; c/L-1 at n=20 = -6.460e-07
+X4,4
+   mu=0: analytic from n=7, exact failures on [3,7]: none; |closed/L-1| at n=20 < 1.0e-74; c/L-1 at n=20 = -2.635e-09
+   mu=1: analytic from n=6, exact failures on [3,6]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -1.762e-09
+   mu=2: analytic from n=6, exact failures on [3,6]: none; |closed/L-1| at n=20 < 1.0e-74; c/L-1 at n=20 = -1.909e-09
+X6,6
+   mu=0: analytic from n=5, exact failures on [2,5]: none; |closed/L-1| at n=20 < 7.5e-75; c/L-1 at n=20 = 1.472e-12
+X6,2
+   mu=0: analytic from n=25, exact failures on [4,25]: none; |closed/L-1| at n=20 < 1.2e-74; c/L-1 at n=20 = 9.786e-05
+   mu=1: analytic from n=24, exact failures on [3,24]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -8.384e-05
+   mu=2: analytic from n=24, exact failures on [3,24]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = 8.608e-05
+X4,2
+   mu=0: analytic from n=10, exact failures on [4,10]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -1.561e-06
+   mu=1: analytic from n=9, exact failures on [4,9]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -1.139e-06
+   mu=2: analytic from n=9, exact failures on [4,9]: none; |closed/L-1| at n=20 < 1.2e-74; c/L-1 at n=20 = -1.372e-06
+   mu=3: analytic from n=10, exact failures on [4,10]: none; |closed/L-1| at n=20 < 1.2e-74; c/L-1 at n=20 = -1.471e-06
+   mu=4: analytic from n=10, exact failures on [4,10]: none; |closed/L-1| at n=20 < 1.1e-74; c/L-1 at n=20 = -1.561e-06

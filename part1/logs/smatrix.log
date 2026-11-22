@@ -1,0 +1,11 @@
+X5 eps = (1.0 + 0.0j)  max deviation: 2.37e-30  predicted (-1)^(chi_D+1): 1
+X6 eps = (-1.0 + 0.0j)  max deviation: 3.35e-30  predicted (-1)^(chi_D+1): -1
+X8 eps = (-1.0 + 0.0j)  max deviation: 5.47e-30  predicted (-1)^(chi_D+1): -1
+X10 eps = (1.0 + 0.0j)  max deviation: 2.03e-30  predicted (-1)^(chi_D+1): 1
+X4,3 eps = (1.0 + 0.0j)  max deviation: 3.65e-30  predicted (-1)^(chi_D+1): 1
+X6,4 eps = (1.0 + 0.0j)  max deviation: 1.95e-30  predicted (-1)^(chi_D+1): 1
+X3,3 eps = (-1.0 + 0.0j)  max deviation: 7.05e-30  predicted (-1)^(chi_D+1): -1
+X4,4 eps = (-1.0 + 0.0j)  max deviation: 3.45e-30  predicted (-1)^(chi_D+1): -1
+X6,6 eps = (-1.0 + 0.0j)  max deviation: 3.46e-30  predicted (-1)^(chi_D+1): -1
+X6,2 eps = (1.0 + 0.0j)  max deviation: 3.55e-30  predicted (-1)^(chi_D+1): 1
+X4,2 eps = (-1.0 + 0.0j)  max deviation: 4.86e-30  predicted (-1)^(chi_D+1): -1
