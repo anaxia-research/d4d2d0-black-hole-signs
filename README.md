@@ -89,6 +89,50 @@ flowchart TD
   C --> F[Theorem F: entropy]
 ```
 
+## Part III: quotient threefolds and torsion (`part3/`)
+
+Models: the nine free quotients of McGovern, *New examples of Abelian D4D2D0 indices*,
+SciPost Phys. 20 (2026) 015 (Q5, R7, H5, the bicubic P5[3,3]/Z3, and the multiparameter quotients with
+(b2, c2) = (2,29), (2,20), (2,12), (3,18), (3,15)), plus the Grassmannian and Reye quotients, whose second
+cohomology has torsion Z7 and Z10. The pure D4-brane index is `(-1)^(chi_D+1) chi_D T^2`, with `T` the order
+of the torsion.
+
+| Result | What is computed | Log |
+|---|---|---|
+| Theorem A (exact construction) | uniqueness, Wronskian free basis for kappa <= 7, closed forms in Rankin-Cohen brackets; agreement with all 67 printed coefficients and the 8 printed for the bicubic at t = 486 | `closed3.log`, `check3.log`, `express3.log`, `rc3.log`, `validate3.log` |
+| Lattices | `(H^2_free, kappa_1jk)` of the multiparameter models is `<K> + <-1>^(b2-1)` | `lattice3.log` |
+| S-matrix | `h(-1/tau) = (-i tau)^w eps K^(-1/2) e(-mu nu/K) h(tau)` checked numerically | `smatrix3.log` |
+| Theorem B (Rademacher with certified error) | `|c/L - 1| < R` certified at 2171 pairs (9 models and 6 one-polar forms) | `major3.log` |
+| Theorems C and G (signs, growth, log-concavity, entropy) | analytic thresholds certified in ball arithmetic; exact checks below them | `signs3.log` |
+| Theorem D (classification) | all one-parameter invariants with at most two polar terms; sign windows for the unknown polar index | `classify3.log` |
+| Bicubic quotient | exact window `-236196/11 < t < 747` for the second polar index | `window3.log` |
+| Theorem F (obstruction) | the Grassmannian and Reye polar vectors violate a modular constraint | `check3.log` |
+| Extended data | integrality to n <= 400; third-order Turan inequalities | `extended3.log` |
+| Tables and figure data | models, thresholds, examples, entropy, first coefficients, error curves | `tab_*.txt`, `*.dat` |
+
+### Reproduce
+
+```sh
+./part3/run_all.sh      # about 15 seconds
+```
+
+```mermaid
+flowchart TD
+  P[Topological data, pure D4 index with torsion] --> A[Theorem A: free basis, closed forms]
+  P --> Be[Bessel lemmas, every order]
+  A --> B[Theorem B: Rademacher with certified error R]
+  Be --> B
+  A --> E[Theorem E: eta-tower]
+  A --> F[Theorem F: obstructions]
+  B --> C[Theorem C: signs, growth, log-concavity]
+  B --> D[Theorem D: one and two polar terms]
+  B --> G[Theorem G: entropy]
+  C --> H[Corollary H: positivity for the quotients]
+  D --> H
+  E --> H
+  G --> H
+```
+
 ## License
 
 MIT (see `LICENSE`).
