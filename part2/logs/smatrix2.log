@@ -1,0 +1,4 @@
+X10: chi_2D=7 eps2=+1  max relative deviation 2.6836e-40
+X8: chi_2D=10 eps2=-1  max relative deviation 4.736e-40
+X10 rank one: chi_D=3 eps1=+1  max relative deviation 2.7392e-40
+X8 rank one: chi_D=4 eps1=-1  max relative deviation 1.9608e-40
