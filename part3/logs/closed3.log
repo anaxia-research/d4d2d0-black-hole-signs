@@ -1,0 +1,17 @@
+Q5 = 25 E4/eta^11 : True
+M229 = 9 E4/eta^12 : True
+M220 = 9 E4/eta^12 : True
+R7 = 49 W/eta^16 with W = -(1/2)[E4,theta]_1: True
+H5 = 25 W/eta^16 with W = -(1/2)[E4,theta]_1: True
+M212 = 25 W/eta^17 with W = -(1/2)[E4,theta]_1: True
+M318 = 9 W/eta^18 with W = -(1/2)[E4,theta]_1: True
+M315 = 9 W/eta^18 with W = -(1/2)[E4,theta]_1: True
+W integral (n < 100): True
+F2 = 2 theta/eta^6: True   F1 = (E6^2 theta/24 - E6[E4,theta]_1/4)/eta^30 - 54 theta/eta^6: True
+K=1 d=1 Lambda=1/8 weights sum=3/2 12*Lambda=3/2 leading coefficient 1 at q^1/8; det = c eta^{24 Lambda}: True
+K=2 d=2 Lambda=1/4 weights sum=3 12*Lambda=3 leading coefficient 1/2 at q^1/4; det = c eta^{24 Lambda}: True
+K=3 d=2 Lambda=5/12 weights sum=5 12*Lambda=5 leading coefficient 1/2 at q^5/12; det = c eta^{24 Lambda}: True
+K=4 d=3 Lambda=5/8 weights sum=15/2 12*Lambda=15/2 leading coefficient 3/64 at q^5/8; det = c eta^{24 Lambda}: True
+K=5 d=3 Lambda=7/8 weights sum=21/2 12*Lambda=21/2 leading coefficient 9/50 at q^7/8; det = c eta^{24 Lambda}: True
+K=6 d=4 Lambda=7/6 weights sum=14 12*Lambda=14 leading coefficient 5/1728 at q^7/6; det = c eta^{24 Lambda}: True
+K=7 d=4 Lambda=3/2 weights sum=18 12*Lambda=18 leading coefficient 2025/33614 at q^3/2; det = c eta^{24 Lambda}: True

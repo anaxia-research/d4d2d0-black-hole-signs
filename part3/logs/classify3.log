@@ -1,0 +1,79 @@
+Invariants (kappa, c2) with chi_D = kappa/6 + c2/12 in Z_{>=1}, c2 >= 1, and at most two polar terms:
+  kappa=1 c2=10 chi(D)=11 chi_D=1 polar exponents [(0, '-11/24')]
+  kappa=1 c2=22 chi(D)=23 chi_D=2 polar exponents [(0, '-23/24')]
+  kappa=1 c2=34 chi(D)=35 chi_D=3 polar exponents [(0, '-35/24'), (0, '-11/24')]
+  kappa=1 c2=46 chi(D)=47 chi_D=4 polar exponents [(0, '-47/24'), (0, '-23/24')]
+  kappa=2 c2=8 chi(D)=10 chi_D=1 polar exponents [(0, '-5/12')]
+  kappa=2 c2=20 chi(D)=22 chi_D=2 polar exponents [(0, '-11/12'), (1, '-1/6')]
+  kappa=3 c2=6 chi(D)=9 chi_D=1 polar exponents [(0, '-3/8')]
+  kappa=3 c2=18 chi(D)=21 chi_D=2 polar exponents [(0, '-7/8'), (1, '-5/24')]
+  kappa=4 c2=4 chi(D)=8 chi_D=1 polar exponents [(0, '-1/3')]
+  kappa=5 c2=2 chi(D)=7 chi_D=1 polar exponents [(0, '-7/24')]
+  kappa=11 c2=2 chi(D)=13 chi_D=2 polar exponents [(0, '-13/24'), (2, '-95/264')]
+search complete: chi(D) = kappa + c2 <= 48 is necessary, so kappa, c2 < 48
+
+(1,10): N=14, polar positions [(0, 0)], dim V = 1
+  U:  {0: ['1', '251', '4877', '49378', '360005']}
+  eps = 1; eps*c(n) > 0 for all non-polar n <= 90: True; integral: True
+   mu=0 first=1 n0=1 nD=4 nE=10 failures: pos [] growth [] lc []
+
+(1,22): N=26, polar positions [(0, 0)], dim V = 1
+  U:  {0: ['1', '-241', '-141205', '-8387596', '-230087666']}
+  eps = -1; eps*c(n) > 0 for all non-polar n <= 90: True; integral: True
+   mu=0 first=1 n0=1 nD=3 nE=6 failures: pos [] growth [] lc []
+
+(1,34): N=38, polar positions [(0, 0), (0, 1)], dim V = 2
+  G1: {0: ['1', '0', '138760', '69736895', '7207403125']}  G2: {0: ['0', '1', '251', '4877', '49378']}
+  window (from n <= 90): -138760/251 < t < None   binding at (0, 2), None
+  eps*G2 non-polar coefficients all >= 0 for n <= 90: True
+  endpoint t=-138760/251: zero/negative non-polar coefficients {0: [(2, '0')]} R<1 from {0: 3}
+
+(1,46): N=50, polar positions [(0, 0), (0, 1)], dim V = 2
+  G1: {0: ['1', '0', '-2402', '-68373285', '-34368199712']}  G2: {0: ['0', '1', '-241', '-141205', '-8387596']}
+  window (from n <= 90): -2402/241 < t < None   binding at (0, 2), None
+  eps*G2 non-polar coefficients all >= 0 for n <= 90: True
+  endpoint t=-2402/241: zero/negative non-polar coefficients {0: [(2, '0')]} R<1 from {0: 3}
+
+(2,8): N=16, polar positions [(0, 0)], dim V = 1
+  U:  {0: ['1', '136', '2081', '18152', '117028'], 1: ['56', '1136', '10912', '75072', '414304']}
+  eps = 1; eps*c(n) > 0 for all non-polar n <= 90: True; integral: True
+   mu=0 first=1 n0=1 nD=5 nE=11 failures: pos [] growth [] lc []
+   mu=1 first=0 n0=0 nD=4 nE=10 failures: pos [] growth [] lc []
+
+(2,20): N=28, polar positions [(0, 0), (1, 0)], dim V = 2
+  G1: {0: ['1', '-244', '-86973', '-4443660', '-109549883'], 1: ['0', '-26752', '-1814272', '-51534080', '-911232512']}  G2: {0: ['0', '-2', '-8', '-30', '-88'], 1: ['1', '6', '22', '68', '187']}
+  window (from n <= 90): -122 < t < 13376/3   binding at (0, 1), (1, 1)
+  endpoint t=-122: zero/negative non-polar coefficients {0: [(1, '0')], 1: []} R<1 from {0: 2, 1: 1}
+  endpoint t=13376/3: zero/negative non-polar coefficients {0: [], 1: [(1, '0')]} R<1 from {0: 2, 1: 2}
+
+(3,6): N=18, polar positions [(0, 0)], dim V = 1
+  U:  {0: ['1', '81', '972', '7293', '41391'], 1: ['27', '459', '3861', '23760', '118881']}
+  eps = 1; eps*c(n) > 0 for all non-polar n <= 90: True; integral: True
+   mu=0 first=1 n0=1 nD=5 nE=12 failures: pos [] growth [] lc []
+   mu=1 first=0 n0=0 nD=5 nE=11 failures: pos [] growth [] lc []
+
+(3,18): N=30, polar positions [(0, 0), (1, 0)], dim V = 2
+  G1: {0: ['1', '-249', '-60498', '-2663747', '-59013120'], 1: ['0', '-13122', '-833247', '-22169619', '-369095616']}  G2: {0: ['0', '-6', '-36', '-162', '-570'], 1: ['1', '11', '50', '191', '616']}
+  window (from n <= 90): -83/2 < t < 13122/11   binding at (0, 1), (1, 1)
+  endpoint t=-83/2: zero/negative non-polar coefficients {0: [(1, '0')], 1: []} R<1 from {0: 2, 1: 1}
+  endpoint t=13122/11: zero/negative non-polar coefficients {0: [], 1: [(1, '0')]} R<1 from {0: 2, 1: 2}
+
+(4,4): N=20, polar positions [(0, 0)], dim V = 1
+  U:  {0: ['1', '48', '454', '2912', '14486'], 1: ['16', '208', '1504', '8112', '36336'], 2: ['10', '160', '1192', '6656', '30358']}
+  eps = 1; eps*c(n) > 0 for all non-polar n <= 90: True; integral: True
+   mu=0 first=1 n0=1 nD=6 nE=13 failures: pos [] growth [] lc []
+   mu=1 first=0 n0=0 nD=5 nE=12 failures: pos [] growth [] lc []
+   mu=2 first=0 n0=0 nD=5 nE=12 failures: pos [] growth [] lc []
+
+(5,2): N=22, polar positions [(0, 0)], dim V = 1
+  U:  {0: ['1', '27', '205', '1110', '4820'], 1: ['10', '95', '585', '2730', '10855'], 2: ['5', '65', '415', '2040', '8320']}
+  eps = 1; eps*c(n) > 0 for all non-polar n <= 90: True; integral: True
+   mu=0 first=1 n0=1 nD=6 nE=14 failures: pos [] growth [] lc []
+   mu=1 first=0 n0=0 nD=6 nE=14 failures: pos [] growth [] lc []
+   mu=2 first=0 n0=0 nD=6 nE=14 failures: pos [] growth [] lc []
+
+(11,2): N=46, polar positions [(0, 0), (2, 0)], dim V = 2
+  G1: {0: ['1', '-119', '-3504', '-48027', '-442356'], 1: ['-11', '-869', '-15554', '-167365', '-1329009'], 2: ['0', '-242', '-5874', '-73634', '-643071'], 3: ['-77', '-2695', '-38577', '-365860', '-2673605'], 4: ['-33', '-1551', '-24673', '-248578', '-1890988'], 5: ['-22', '-1155', '-19657', '-204138', '-1586739']}  G2: {0: ['0', '-44', '-550', '-4158', '-23408'], 1: ['-3', '-81', '-718', '-4561', '-23012'], 2: ['1', '47', '540', '3785', '20557'], 3: ['31', '433', '3362', '19371', '92057'], 4: ['2', '44', '349', '2131', '10392'], 5: ['-10', '-202', '-1744', '-10780', '-53564']}
+  window (from n <= 90): -11/5 < t < 77/31   binding at (5, 0), (3, 0)
+  endpoint t=-11/5: zero/negative non-polar coefficients {0: [], 1: [], 2: [], 3: [], 4: [], 5: [(0, '0')]} R<1 from {0: 2, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1}
+  endpoint t=77/31: zero/negative non-polar coefficients {0: [], 1: [], 2: [], 3: [(0, '0')], 4: [], 5: []} R<1 from {0: 2, 1: 1, 2: 2, 3: 1, 4: 1, 5: 1}

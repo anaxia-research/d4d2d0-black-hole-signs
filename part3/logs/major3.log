@@ -1,0 +1,16 @@
+(1,21)     pairs checked:  80  |c/L - 1| < R certified: True
+(1,25)     pairs checked: 160  |c/L - 1| < R certified: True
+(1,8)      pairs checked: 161  |c/L - 1| < R certified: True
+(1,6)      pairs checked: 161  |c/L - 1| < R certified: True
+(2,29)     pairs checked:  80  |c/L - 1| < R certified: True
+(2,20)     pairs checked:  80  |c/L - 1| < R certified: True
+(2,12)     pairs checked: 161  |c/L - 1| < R certified: True
+(3,18)     pairs checked: 161  |c/L - 1| < R certified: True
+(3,15)     pairs checked: 161  |c/L - 1| < R certified: True
+U(1,10)    pairs checked:  80  |c/L - 1| < R certified: True
+U(1,22)    pairs checked:  80  |c/L - 1| < R certified: True
+U(2,8)     pairs checked: 161  |c/L - 1| < R certified: True
+U(3,6)     pairs checked: 161  |c/L - 1| < R certified: True
+U(4,4)     pairs checked: 242  |c/L - 1| < R certified: True
+U(5,2)     pairs checked: 242  |c/L - 1| < R certified: True
+total pairs: 2171

@@ -1,0 +1,9 @@
+X5    kappa=5 c2=50: polar terms 7, dim V 7, obstructions 0
+X6    kappa=3 c2=42: polar terms 4, dim V 4, obstructions 0
+X8    kappa=2 c2=44: polar terms 4, dim V 4, obstructions 0
+X10   kappa=1 c2=34: polar terms 2, dim V 2, obstructions 0
+X4,3  kappa=6 c2=48: polar terms 9, dim V 9, obstructions 0
+X6,4  kappa=2 c2=32: polar terms 3, dim V 3, obstructions 0
+X4,4  kappa=4 c2=40: polar terms 6, dim V 5, obstructions 1
+X6,6  kappa=1 c2=22: polar terms 1, dim V 1, obstructions 0
+X6,2  kappa=4 c2=52: polar terms 7, dim V 7, obstructions 0
